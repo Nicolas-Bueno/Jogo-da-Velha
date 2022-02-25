@@ -1,0 +1,88 @@
+body {
+    background-color: skyblue;
+}
+p {
+    float: left;
+    margin: 15px;
+    font-size: xx-large;
+    font-family: 'Fredoka One', cursive;
+}
+
+#menu {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 376px;
+    height: 100px;
+}
+button {
+    background-color: rebeccapurple;
+    border: none;
+    color: snow;
+    text-align: center;
+    padding: 14px 40px;
+    margin: auto;
+    font-size: 20px;
+    width: 100%;
+
+}
+
+#tabuleiro{
+    width: 376px;
+    height: 376px;
+    margin: auto;
+}
+.campo {
+    width: 90px;
+    height: 90px;
+    padding: 10px;
+    cursor: pointer;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    
+}
+
+#a1 {
+    border-right: 4px solid #000;
+    border-bottom: 4px solid #000;
+}
+#a2 {
+    border-left: 4px solid #000;
+    border-right: 4px solid#000;
+    border-bottom: 4px solid #000;
+}
+#a3{
+    border-left: 4px solid #000;
+    border-bottom: 4px solid #000;
+}
+#b1 {
+    border-right: 4px solid #000;
+    border-top: 4px solid #000;
+    border-bottom: 4px solid #000;
+}
+#b2 {
+    border: 4px solid #000;
+}
+#b3 {
+    border-top: 4px solid #000;
+    border-left: 4px solid #000;
+    border-bottom: 4px solid #000;
+    
+}
+#c1 {
+    border-right: 4px solid #000;
+    border-top: 4px solid #000;
+    
+}
+#c2 {
+    border-top: 4px solid #000;
+    border-right: 4px solid #000;
+    border-left: 4px solid #000;
+}
+#c3 {
+    border-top: 4px solid #000;
+    border-left: 4px solid #000;
+}

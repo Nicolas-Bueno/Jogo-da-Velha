@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!---- Estilos ---->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Jogo da Velha</title>
+</head>
+<body>
+    <div id="menu">
+        <div id="quemComeca">Quem joga: </div>
+        <button onclick="iniciar()">Iniciar</button>
+    </div>
+
+    <div id="tabuleiro">
+        <div id="a1" class="campo" onclick="jogar(1)"></div>
+        <div id="a2" class="campo" onclick="jogar(2)"></div>
+        <div id="a3" class="campo" onclick="jogar(3)"></div>
+        
+        <div id="b1" class="campo" onclick="jogar(4)"></div>
+        <div id="b2" class="campo" onclick="jogar(5)"></div>
+        <div id="b3" class="campo" onclick="jogar(6)"></div>
+        
+        <div id="c1" class="campo" onclick="jogar(7)"></div>
+        <div id="c2" class="campo" onclick="jogar(8)"></div>
+        <div id="c3" class="campo" onclick="jogar(9)"></div>
+    </div>
+     <!---- Script ---->
+    <script src="js/script.js"></script>
+</body>
+</html>
